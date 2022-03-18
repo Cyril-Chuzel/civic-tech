@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+romans.tsv
+lns.tsv
+livresspeciaux.tsv
+artbooks.tsv
+mangas.tsv
+cds.tsv
