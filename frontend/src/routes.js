@@ -7,11 +7,12 @@ import ArtBooks from "./page/ArtBooks"
 import Mangas from "./page/Mangas";
 import CDs from "./page/CDs";
 import MaDoleance from "./page/MaDoleance";
+import Accueil from "./page/Accueil";
 
 const MAP_ROUTES = [
-    { path: "/", element: <Navigate to="/app/romans" /> },
+    { path: "/", element: <Navigate to="/app/Accueil" /> },
     { path: "/app", element: <Interface />, children: [
-        { index: true, element: <Navigate to="/app/romans" /> },
+        { index: true, element: <Navigate to="/app/Accueil" /> },
         { path: "romans", element: <Romans /> },
         { path: "lns", element: <LNs /> },
         { path: "spebooks", element: <SpeBooks /> },
@@ -19,6 +20,7 @@ const MAP_ROUTES = [
         { path: "mangas", element: <Mangas /> },
         { path: "cds", element: <CDs /> },
         { path:"MaDoleance", element: <MaDoleance/>},
+        { path: "Accueil", element: <Accueil/>},
     ]},
 ];
 

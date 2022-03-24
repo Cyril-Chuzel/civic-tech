@@ -1,16 +1,32 @@
-/* .PubliDiv {
-    text-align: center;
-    align-items: center;
-    display: inline;
-    width: 100%
-} */
-
 .PubliDiv {
-    width: 50%;
+    width: 60%;
     border-color: #000000;
     background-color: #EEEEEE;
     padding: 2% 2% 2% 2%; 
     border-radius: 10px;
     border-width: 10px;
     align-self: center;
+    margin: 5%;
+}
+
+.AccueilContent {
+    width: 80%;
+    align-self: center;
+}
+
+.ParaTitle {
+    margin-top: 100px;
+}
+
+.ParaTitle.right {
+    text-align: right;
+}
+
+.ParaTitle.right .AccueilTxt {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 100px;
 }
