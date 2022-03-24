@@ -18,7 +18,8 @@ function Mangas(props) {
     const books = data.getMangas;
     return (
         <>
-            <TitleContent title="Mangas" />
+        <h1>Test</h1>
+            {/* <TitleContent title="Mangas" />
             <Grid container sx={{ alignItems: "center" }}>
             {
                 books.map((book) => {
@@ -29,7 +30,7 @@ function Mangas(props) {
                     )
                 })
             }
-            </Grid>
+            </Grid> */}
         </>
     )
 } 

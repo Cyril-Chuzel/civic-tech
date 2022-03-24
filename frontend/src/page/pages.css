@@ -1,0 +1,16 @@
+/* .PubliDiv {
+    text-align: center;
+    align-items: center;
+    display: inline;
+    width: 100%
+} */
+
+.PubliDiv {
+    width: 50%;
+    border-color: #000000;
+    background-color: #EEEEEE;
+    padding: 2% 2% 2% 2%; 
+    border-radius: 10px;
+    border-width: 10px;
+    align-self: center;
+}

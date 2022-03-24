@@ -18,7 +18,7 @@ function Romans(props) {
     const books = data.getRomans;
     return (
         <>
-            <TitleContent title="Romans" />
+            {/* <TitleContent title="Romans" />
             <Grid container sx={{ alignItems: "center" }}>
             {
                 books.map((book) => {
@@ -29,7 +29,7 @@ function Romans(props) {
                     )
                 })
             }
-            </Grid>
+            </Grid> */}
         </>
     )
 } 

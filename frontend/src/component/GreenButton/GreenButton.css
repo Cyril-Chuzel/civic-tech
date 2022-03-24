@@ -1,0 +1,10 @@
+.GreenButton {
+    color : #1E2C59;
+    margin: 20px auto;
+    /* border-style: none; */
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #1E2C59;
+    padding: 10px 50px;
+}
+
