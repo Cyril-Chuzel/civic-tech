@@ -4,6 +4,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     color: #405183;
+    text-decoration: none;
 }
 
 .DivHeader {
@@ -13,7 +14,7 @@
     width: 100%;
 }
 
-.DivLink {
+.DivNav {
     display: flex;
     text-align: center;
     align-items: center;
@@ -21,7 +22,6 @@
 }
 
 .HeaderLink {
-    text-decoration: none;
     margin: 3%;
 }
 
@@ -30,6 +30,5 @@ h1.Logo {
 }
 
 .ConnexionLink {
-    text-decoration: none;
     font-weight: 600;
 }

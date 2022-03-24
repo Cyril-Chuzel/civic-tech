@@ -169,3 +169,25 @@ export const GET_CD = gql`
         }
     }
 `;
+
+export const GET_DOLEANCES = gql`
+    query Query {
+        getDoleances {
+            id
+            title
+            content
+            date
+        }
+    }
+`;
+
+export const GET_DOLEANCE = gql`
+    query Query($id: Int!){
+        getDoleance(id: $id){
+            id
+            title
+            content
+            date
+        }
+    }
+`;

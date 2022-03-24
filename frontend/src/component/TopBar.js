@@ -8,8 +8,8 @@ import "./header.css";
 
 const pages = [
     { name: "Faire une doléance", link: "/app/MaDoleance" },
-    { name: "Tendances", link: "/app/spebooks" },
-    { name: "Cahier de doléances", link: "/app/mangas" }
+    { name: "Tendances", link: "/app" },
+    { name: "Cahier de doléances", link: "/app/CahierDoleances" }
 ];
 
 function TopBar (props) {
@@ -17,17 +17,17 @@ function TopBar (props) {
         <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
             
             <div className="DivHeader">
-                <h1 className="Logo">FranceDoléances</h1>
+                <h1 className="Logo" ><a href="/app/Accueil">FranceDoléances</a></h1>
 
-                    <div className="DivLink">
-                        <a className="HeaderLink" href="">Faire une doléance</a>
-                        <p>/</p>
-                        <a className="HeaderLink" href="">Tendances</a>
-                        <p>/</p>
-                        <a className="HeaderLink" href="">Cahier de doléances</a>
-                    </div>
+                <div className="DivNav">
+                    <a className="HeaderLink" href="/app/MaDoleance">Faire une doléance</a>
+                    <p>/</p>
+                    <a className="HeaderLink" href="">Tendances</a>
+                    <p>/</p>
+                    <a className="HeaderLink" href="/app/CahierDoleances">Cahier de doléances</a>
+                </div>
 
-                    <a className="ConnexionLink" href="">Connexion</a>
+                <a className="ConnexionLink" href="">Connexion</a>
 
             </div>
             

@@ -50,6 +50,15 @@ const romanResolvers = {
             const data = tsvToJSON("cds.tsv");
             return data[args.id];
         },
+
+        getDoleances: () => {
+            const data = tsvToJSON("CahierDoleances.tsv");
+            return data;
+        },
+        getDoleance: (parent, args, context, info) => {
+            const data = tsvToJSON("CahierDoleances.tsv");
+            return data[args.id];
+        },
     },
 };
 

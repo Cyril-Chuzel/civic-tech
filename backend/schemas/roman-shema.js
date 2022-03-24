@@ -14,6 +14,8 @@ const romanSchemas = gql`
         getManga(id: Int!): Manga
         getCDs: [CD]
         getCD(id: Int!): CD
+        getDoleances: [Doleances]
+        getDoleance(id Int!): Doleance
     }
 
     type Books {
@@ -52,6 +54,13 @@ const romanSchemas = gql`
         isbn: String!
         image: String
         commentaire: String
+    }
+
+    type Doleance {
+        id: Int!
+        title: String!
+        content: String!
+        date: Date!
     }
 `;
 

@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { GET_LN, GET_ROMAN, GET_SPE_BOOK, GET_ART_BOOK, GET_MANGA } from "../api/object-api";
+import { GET_LN, GET_ROMAN, GET_SPE_BOOK, GET_ART_BOOK, GET_MANGA, GET_DOLEANCE } from "../api/object-api";
 
 function RomanModal ({ id, open, handleClose, api }) {
     const { data, loading, error } = useQuery(api, { variables: { id } });
@@ -32,6 +32,10 @@ function RomanModal ({ id, open, handleClose, api }) {
     }
     if (api === GET_MANGA) {
         object = data.getManga;
+    }
+
+    if (api === GET_DOLEANCE) {
+        object = data.getDoleance;
     }
     
 

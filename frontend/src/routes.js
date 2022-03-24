@@ -1,26 +1,28 @@
 import { Navigate } from "react-router-dom";
 import Interface from "./page/Interface"
-import Romans from "./page/Romans"
-import LNs from "./page/LNs"
-import SpeBooks from "./page/SpeBooks"
-import ArtBooks from "./page/ArtBooks"
-import Mangas from "./page/Mangas";
-import CDs from "./page/CDs";
+// import Romans from "./page/Romans"
+// import LNs from "./page/LNs"
+// import SpeBooks from "./page/SpeBooks"
+// import ArtBooks from "./page/ArtBooks"
+// import Mangas from "./page/Mangas";
+// import CDs from "./page/CDs";
 import MaDoleance from "./page/MaDoleance";
 import Accueil from "./page/Accueil";
+import CahierDoleances from "./page/CahierDoleances";
 
 const MAP_ROUTES = [
     { path: "/", element: <Navigate to="/app/Accueil" /> },
     { path: "/app", element: <Interface />, children: [
         { index: true, element: <Navigate to="/app/Accueil" /> },
-        { path: "romans", element: <Romans /> },
-        { path: "lns", element: <LNs /> },
-        { path: "spebooks", element: <SpeBooks /> },
-        { path: "artbooks", element: <ArtBooks /> },
-        { path: "mangas", element: <Mangas /> },
-        { path: "cds", element: <CDs /> },
+        // { path: "romans", element: <Romans /> },
+        // { path: "lns", element: <LNs /> },
+        // { path: "spebooks", element: <SpeBooks /> },
+        // { path: "artbooks", element: <ArtBooks /> },
+        // { path: "mangas", element: <Mangas /> },
+        // { path: "cds", element: <CDs /> },
         { path:"MaDoleance", element: <MaDoleance/>},
         { path: "Accueil", element: <Accueil/>},
+        { path: "CahierDoleances", element: <CahierDoleances/>},
     ]},
 ];
 
