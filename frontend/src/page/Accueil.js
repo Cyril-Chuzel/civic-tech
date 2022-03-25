@@ -6,19 +6,18 @@ import "./pages.css";
 function Accueil(props) {
     return (
         <>
-            <h1>Bienvenue Citoyens !</h1>
+            <h1 className="AccueilTitle">Bienvenue Citoyen !</h1>
 
-            <img src="/AcceuilImg.png" alt="Faire remonter les problématiques citoyennes, c'est possible !"/>
+            <img className="AcceuilImg" src="../AccueilImg.png" alt="Faire remonter les problématiques citoyennes, c'est possible !"/>
 
-            <p>
-                    Commence maintenant
-                    et participe ici!
-            </p>
-                
-            <GreenButton title={"faire une doléance"} handleClick="/app/MaDoleance" />
-            {/* <button className="GreenButton" href="/app/MaDoleance">Faire une doléance</button> */}
-
-
+            <div className="DivButtonContent">
+                <p>
+                        Commence maintenant et participe ici!
+                </p>
+                    
+                <GreenButton title={"faire une doléance"} handleClick="/app/MaDoleance" />
+            </div>
+            
             <div className="AccueilContent">
 
                 <h2 className="ParaTitle left">Notre projet</h2>

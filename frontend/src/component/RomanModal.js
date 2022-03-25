@@ -54,18 +54,18 @@ function RomanModal ({ id, open, handleClose, api }) {
             }}>
                 <Paper sx={{ p: 3 }}>
                     <Grid container>
-                        <Grid item xs={6}>
+                        <Grid item xs={10}>
                             <Typography id="title" variant="h6" component="h2">                            
                                 {object.title}
                             </Typography>
                         </Grid>
-                        <Grid item xs={1}>
-                            <Typography id="title" variant="h6" component="h2">                            
+                        <Grid item xs={0}>
+                            <Typography id="date" variant="h6" component="h2">                            
                                 N°{object.tomenumber}
                             </Typography>
                         </Grid>
                         <Grid item xs={2} />
-                        <Grid container item xs={3}>
+                        {/* <Grid container item xs={3}>
                             <Grid item>
                                 <Typography id="author" variant="h6" component="h2">                            
                                     Author : {object.author}
@@ -76,13 +76,13 @@ function RomanModal ({ id, open, handleClose, api }) {
                                     Editeur : {object.editeur}
                                 </Typography>
                             </Grid>
-                        </Grid>
+                        </Grid> */}
                         <Grid item xs={12}>
-                            <Typography id="resume" sx={{ mt: 2 }}>
+                            <Typography id="content" sx={{ mt: 2 }}>
                                 {object.resume}
                             </Typography>
                         </Grid>
-                        <Grid container item xs={12}>
+                        {/* <Grid container item xs={12}>
                             <Grid item md={4}>
                                 <Typography id="prix">
                                     Prix : {object.prix}€
@@ -100,12 +100,12 @@ function RomanModal ({ id, open, handleClose, api }) {
                                     n° page : {object.pagenumber}
                                 </Typography>
                             </Grid>
-                        </Grid>
-                        <Grid item xs={12}>
+                        </Grid> */}
+                        {/* <Grid item xs={12}>
                             <Typography id="commentaire">
                                 Commentaire : {object.commentaire}
                             </Typography>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                 </Paper>
             </Box>

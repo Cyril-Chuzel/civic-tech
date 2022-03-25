@@ -14,7 +14,7 @@ const romanSchemas = gql`
         getManga(id: Int!): Manga
         getCDs: [CD]
         getCD(id: Int!): CD
-        getDoleances: [Doleances]
+        getDoleances: [Doleance]
         getDoleance(id Int!): Doleance
     }
 
@@ -60,7 +60,7 @@ const romanSchemas = gql`
         id: Int!
         title: String!
         content: String!
-        date: Date!
+        date: String!
     }
 `;
 

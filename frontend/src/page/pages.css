@@ -6,12 +6,44 @@
     border-radius: 10px;
     border-width: 10px;
     align-self: center;
-    margin: 5%;
+    /* margin: 5%; */
+}
+
+.AccueilTitle {
+    font-weight:lighter;
+    font-size: 450%;
+    margin: 10% 0% 0% 2%;
+}
+
+.DivButtonContent {
+    padding-right: 40%;
+    text-align: center;
+    font-size: 150%;
+    margin-top: -10%;
 }
 
 .AccueilContent {
     width: 80%;
     align-self: center;
+}
+
+.HandFlag {
+    width: 10%;
+    height: 10%;
+    padding-left: 60%;
+    margin-bottom: -2%;
+}
+
+.Slogan {
+    font-size: 200% ;
+    margin-top: 10%;
+}
+
+.AcceuilImg {
+    width: 25%;
+    height: 25%;
+    padding-left: 65%;
+    /* margin-top: -10%; */
 }
 
 .ParaTitle {
@@ -26,7 +58,19 @@
     text-align: right;
 }
 
+.SpanListInfo {
+    display: flex;
+    width: 100%;
+    /* text-align: justify; */
+}
+
+.ListDate {
+    padding-left: 65%;
+}
+
+
 .footer {
     text-align: center;
     margin-top: 100px;
 }
+

@@ -11,9 +11,4 @@ Open [http://localhost:3000](http://localhost:4000) to view it in your browser.
 
 File names you need for backend api to work :
 
-romans.tsv\
-lns.tsv\
-livresspeciaux.tsv\
-artbooks.tsv\
-mangas.tsv\
-cds.tsv
+CahierDoleances.tsv/

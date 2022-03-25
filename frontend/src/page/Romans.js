@@ -18,18 +18,21 @@ function Romans(props) {
     const books = data.getRomans;
     return (
         <>
-            {/* <TitleContent title="Romans" />
+            {/* <TitleContent title="Romans" /> */}
+            
+            <span className="SpanListInfo"><p>Sujet</p><p className="ListDate">Date</p></span>
+
             <Grid container sx={{ alignItems: "center" }}>
             {
                 books.map((book) => {
                     return (
-                        <Grid item xs={2}>
+                        <Grid item xs={0}>
                             <Card data={book} key={book.id} api={GET_ROMAN}/>
                         </Grid>
                     )
                 })
             }
-            </Grid> */}
+            </Grid>
         </>
     )
 } 
