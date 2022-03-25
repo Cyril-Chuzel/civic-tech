@@ -22,11 +22,8 @@ function Card ({ data, api }) {
                     <Grid item xs={8}>
                         <Typography>{data.title}</Typography>
                     </Grid>
-                    <Grid item xs={1}>
-                        <Typography></Typography>
-                    </Grid>
                     <Grid item xs={3}>
-                        <Typography>vol {data.tomenumber}</Typography>
+                        <Typography>{data.date}</Typography>
                     </Grid>
                 </Grid>
             </Box>

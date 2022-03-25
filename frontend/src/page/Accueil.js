@@ -1,5 +1,4 @@
 import React from "react";
-import { useQuery } from "@apollo/client";
 import GreenButton from "../component/GreenButton/GreenButton";
 import "./pages.css";
 

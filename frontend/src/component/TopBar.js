@@ -16,8 +16,11 @@ function TopBar (props) {
     return (
         <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
             
+           
             <div className="DivHeader">
-                <h1 className="Logo" ><a href="/app/Accueil">FranceDoléances</a></h1>
+                <a href="/app/Accueil" className="FranceDoleanceLogo">
+                    <img src="../FranceDoleance.png" alt="FranceDoléance"/>
+                </a>
 
                 <div className="DivNav">
                     <a className="HeaderLink" href="/app/MaDoleance">Faire une doléance</a>
